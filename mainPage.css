@@ -1,0 +1,47 @@
+body {
+    margin: 0px;
+    font-family: "Outfit"
+}
+
+.qrcode{
+    border-radius: 5%;
+    padding: 2.5%;
+}
+
+.text-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 45%;
+    border: 5px solid red;
+}
+
+p{
+    font-size: 23px;
+}
+
+.heading-text{
+    font-weight: 700;
+}
+
+.main-frame{
+    width: 20%;
+    height: min-content;
+    border-radius: 5%;
+    border: 10px white solid;
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.background{
+    background-color: #d5e1ef;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
