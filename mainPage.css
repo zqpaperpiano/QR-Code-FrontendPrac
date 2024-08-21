@@ -11,19 +11,26 @@ body {
 .text-area{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 
-    height: 45%;
-    border: 5px solid red;
+    padding: 2.5%;
+    /* border: 5px solid red; */
+    margin: auto;
 }
 
 p{
-    font-size: 23px;
+    font-size: 19px;
+    color: #b2b5b8;
+    text-align: center;
+    padding:0 2% 0 2%;
 }
 
 .heading-text{
     font-weight: 700;
+    font-size: 27px;
+    margin: auto;
+    color: black;
+    
 }
 
 .main-frame{
@@ -35,6 +42,7 @@ p{
 
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .background{
